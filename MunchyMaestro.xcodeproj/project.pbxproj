@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCEEA73A2C38355D00CC0AC8 /* MunchyMaestroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEEA7392C38355D00CC0AC8 /* MunchyMaestroApp.swift */; };
+		FCEEA73C2C38355D00CC0AC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEEA73B2C38355D00CC0AC8 /* ContentView.swift */; };
+		FCEEA73E2C38355E00CC0AC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEEA73D2C38355E00CC0AC8 /* Assets.xcassets */; };
+		FCEEA7422C38355E00CC0AC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCEEA7412C38355E00CC0AC8 /* Preview Assets.xcassets */; };
+		FCEEA74C2C38355E00CC0AC8 /* MunchyMaestroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEEA74B2C38355E00CC0AC8 /* MunchyMaestroTests.swift */; };
+		FCEEA7562C38355E00CC0AC8 /* MunchyMaestroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEEA7552C38355E00CC0AC8 /* MunchyMaestroUITests.swift */; };
+		FCEEA7582C38355E00CC0AC8 /* MunchyMaestroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEEA7572C38355E00CC0AC8 /* MunchyMaestroUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCEEA7482C38355E00CC0AC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCEEA72E2C38355D00CC0AC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCEEA7352C38355D00CC0AC8;
+			remoteInfo = MunchyMaestro;
+		};
+		FCEEA7522C38355E00CC0AC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCEEA72E2C38355D00CC0AC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCEEA7352C38355D00CC0AC8;
+			remoteInfo = MunchyMaestro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCEEA7362C38355D00CC0AC8 /* MunchyMaestro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MunchyMaestro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCEEA7392C38355D00CC0AC8 /* MunchyMaestroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MunchyMaestroApp.swift; sourceTree = "<group>"; };
+		FCEEA73B2C38355D00CC0AC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FCEEA73D2C38355E00CC0AC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCEEA73F2C38355E00CC0AC8 /* MunchyMaestro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MunchyMaestro.entitlements; sourceTree = "<group>"; };
+		FCEEA7412C38355E00CC0AC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCEEA7472C38355E00CC0AC8 /* MunchyMaestroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MunchyMaestroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCEEA74B2C38355E00CC0AC8 /* MunchyMaestroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MunchyMaestroTests.swift; sourceTree = "<group>"; };
+		FCEEA7512C38355E00CC0AC8 /* MunchyMaestroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MunchyMaestroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCEEA7552C38355E00CC0AC8 /* MunchyMaestroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MunchyMaestroUITests.swift; sourceTree = "<group>"; };
+		FCEEA7572C38355E00CC0AC8 /* MunchyMaestroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MunchyMaestroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCEEA7332C38355D00CC0AC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEEA7442C38355E00CC0AC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEEA74E2C38355E00CC0AC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCEEA72D2C38355D00CC0AC8 = {
+			isa = PBXGroup;
+			children = (
+				FCEEA7382C38355D00CC0AC8 /* MunchyMaestro */,
+				FCEEA74A2C38355E00CC0AC8 /* MunchyMaestroTests */,
+				FCEEA7542C38355E00CC0AC8 /* MunchyMaestroUITests */,
+				FCEEA7372C38355D00CC0AC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCEEA7372C38355D00CC0AC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCEEA7362C38355D00CC0AC8 /* MunchyMaestro.app */,
+				FCEEA7472C38355E00CC0AC8 /* MunchyMaestroTests.xctest */,
+				FCEEA7512C38355E00CC0AC8 /* MunchyMaestroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCEEA7382C38355D00CC0AC8 /* MunchyMaestro */ = {
+			isa = PBXGroup;
+			children = (
+				FCEEA7392C38355D00CC0AC8 /* MunchyMaestroApp.swift */,
+				FCEEA73B2C38355D00CC0AC8 /* ContentView.swift */,
+				FCEEA73D2C38355E00CC0AC8 /* Assets.xcassets */,
+				FCEEA73F2C38355E00CC0AC8 /* MunchyMaestro.entitlements */,
+				FCEEA7402C38355E00CC0AC8 /* Preview Content */,
+			);
+			path = MunchyMaestro;
+			sourceTree = "<group>";
+		};
+		FCEEA7402C38355E00CC0AC8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FCEEA7412C38355E00CC0AC8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCEEA74A2C38355E00CC0AC8 /* MunchyMaestroTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCEEA74B2C38355E00CC0AC8 /* MunchyMaestroTests.swift */,
+			);
+			path = MunchyMaestroTests;
+			sourceTree = "<group>";
+		};
+		FCEEA7542C38355E00CC0AC8 /* MunchyMaestroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCEEA7552C38355E00CC0AC8 /* MunchyMaestroUITests.swift */,
+				FCEEA7572C38355E00CC0AC8 /* MunchyMaestroUITestsLaunchTests.swift */,
+			);
+			path = MunchyMaestroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCEEA7352C38355D00CC0AC8 /* MunchyMaestro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCEEA75B2C38355E00CC0AC8 /* Build configuration list for PBXNativeTarget "MunchyMaestro" */;
+			buildPhases = (
+				FCEEA7322C38355D00CC0AC8 /* Sources */,
+				FCEEA7332C38355D00CC0AC8 /* Frameworks */,
+				FCEEA7342C38355D00CC0AC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MunchyMaestro;
+			productName = MunchyMaestro;
+			productReference = FCEEA7362C38355D00CC0AC8 /* MunchyMaestro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCEEA7462C38355E00CC0AC8 /* MunchyMaestroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCEEA75E2C38355E00CC0AC8 /* Build configuration list for PBXNativeTarget "MunchyMaestroTests" */;
+			buildPhases = (
+				FCEEA7432C38355E00CC0AC8 /* Sources */,
+				FCEEA7442C38355E00CC0AC8 /* Frameworks */,
+				FCEEA7452C38355E00CC0AC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCEEA7492C38355E00CC0AC8 /* PBXTargetDependency */,
+			);
+			name = MunchyMaestroTests;
+			productName = MunchyMaestroTests;
+			productReference = FCEEA7472C38355E00CC0AC8 /* MunchyMaestroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCEEA7502C38355E00CC0AC8 /* MunchyMaestroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCEEA7612C38355E00CC0AC8 /* Build configuration list for PBXNativeTarget "MunchyMaestroUITests" */;
+			buildPhases = (
+				FCEEA74D2C38355E00CC0AC8 /* Sources */,
+				FCEEA74E2C38355E00CC0AC8 /* Frameworks */,
+				FCEEA74F2C38355E00CC0AC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCEEA7532C38355E00CC0AC8 /* PBXTargetDependency */,
+			);
+			name = MunchyMaestroUITests;
+			productName = MunchyMaestroUITests;
+			productReference = FCEEA7512C38355E00CC0AC8 /* MunchyMaestroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCEEA72E2C38355D00CC0AC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FCEEA7352C38355D00CC0AC8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FCEEA7462C38355E00CC0AC8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FCEEA7352C38355D00CC0AC8;
+					};
+					FCEEA7502C38355E00CC0AC8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FCEEA7352C38355D00CC0AC8;
+					};
+				};
+			};
+			buildConfigurationList = FCEEA7312C38355D00CC0AC8 /* Build configuration list for PBXProject "MunchyMaestro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCEEA72D2C38355D00CC0AC8;
+			productRefGroup = FCEEA7372C38355D00CC0AC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCEEA7352C38355D00CC0AC8 /* MunchyMaestro */,
+				FCEEA7462C38355E00CC0AC8 /* MunchyMaestroTests */,
+				FCEEA7502C38355E00CC0AC8 /* MunchyMaestroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCEEA7342C38355D00CC0AC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEEA7422C38355E00CC0AC8 /* Preview Assets.xcassets in Resources */,
+				FCEEA73E2C38355E00CC0AC8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEEA7452C38355E00CC0AC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEEA74F2C38355E00CC0AC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCEEA7322C38355D00CC0AC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEEA73C2C38355D00CC0AC8 /* ContentView.swift in Sources */,
+				FCEEA73A2C38355D00CC0AC8 /* MunchyMaestroApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEEA7432C38355E00CC0AC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEEA74C2C38355E00CC0AC8 /* MunchyMaestroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCEEA74D2C38355E00CC0AC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEEA7582C38355E00CC0AC8 /* MunchyMaestroUITestsLaunchTests.swift in Sources */,
+				FCEEA7562C38355E00CC0AC8 /* MunchyMaestroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCEEA7492C38355E00CC0AC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCEEA7352C38355D00CC0AC8 /* MunchyMaestro */;
+			targetProxy = FCEEA7482C38355E00CC0AC8 /* PBXContainerItemProxy */;
+		};
+		FCEEA7532C38355E00CC0AC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCEEA7352C38355D00CC0AC8 /* MunchyMaestro */;
+			targetProxy = FCEEA7522C38355E00CC0AC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FCEEA7592C38355E00CC0AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCEEA75A2C38355E00CC0AC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FCEEA75C2C38355E00CC0AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MunchyMaestro/MunchyMaestro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MunchyMaestro/Preview Content\"";
+				DEVELOPMENT_TEAM = B7W4JUNYBZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aaronhtran.MunchyMaestro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCEEA75D2C38355E00CC0AC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MunchyMaestro/MunchyMaestro.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MunchyMaestro/Preview Content\"";
+				DEVELOPMENT_TEAM = B7W4JUNYBZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aaronhtran.MunchyMaestro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCEEA75F2C38355E00CC0AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B7W4JUNYBZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aaronhtran.MunchyMaestroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MunchyMaestro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MunchyMaestro";
+			};
+			name = Debug;
+		};
+		FCEEA7602C38355E00CC0AC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B7W4JUNYBZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aaronhtran.MunchyMaestroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MunchyMaestro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MunchyMaestro";
+			};
+			name = Release;
+		};
+		FCEEA7622C38355E00CC0AC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B7W4JUNYBZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aaronhtran.MunchyMaestroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MunchyMaestro;
+			};
+			name = Debug;
+		};
+		FCEEA7632C38355E00CC0AC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B7W4JUNYBZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = aaronhtran.MunchyMaestroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MunchyMaestro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCEEA7312C38355D00CC0AC8 /* Build configuration list for PBXProject "MunchyMaestro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCEEA7592C38355E00CC0AC8 /* Debug */,
+				FCEEA75A2C38355E00CC0AC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCEEA75B2C38355E00CC0AC8 /* Build configuration list for PBXNativeTarget "MunchyMaestro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCEEA75C2C38355E00CC0AC8 /* Debug */,
+				FCEEA75D2C38355E00CC0AC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCEEA75E2C38355E00CC0AC8 /* Build configuration list for PBXNativeTarget "MunchyMaestroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCEEA75F2C38355E00CC0AC8 /* Debug */,
+				FCEEA7602C38355E00CC0AC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCEEA7612C38355E00CC0AC8 /* Build configuration list for PBXNativeTarget "MunchyMaestroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCEEA7622C38355E00CC0AC8 /* Debug */,
+				FCEEA7632C38355E00CC0AC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCEEA72E2C38355D00CC0AC8 /* Project object */;
+}
